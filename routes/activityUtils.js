@@ -43,9 +43,9 @@ exports.logData = function ( req ) {
 };
 
 exports.endpOintcreds = {
-	username: 'freddy.clag@domain.com',
-	userpw: 'kgyw35i3odj'
+	username: 'USERNAME',
+	userpw: 'PASSWORD'
 };
 
-exports.endpOintcreds.host = 'demo2862816.mockable.io'; 
+exports.endpOintcreds.host = 'ENDPOINT URL'; 
 exports.endpOintcreds.token = new Buffer(exports.endpOintcreds.username + ':' + exports.endpOintcreds.userpw).toString('base64');	
